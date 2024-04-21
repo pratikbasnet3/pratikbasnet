@@ -1,0 +1,149 @@
+.hygenhousing{
+  font-family: Times New Roman;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: bold;
+  margin-bottom: 8px;
+
+}
+.sloganofwebsite{
+  font-family: comic sans;
+  text-align: center;
+  margin-top: 0px;
+  text-decoration: italic;
+  margin-bottom: 10px;
+  padding-top: 10px
+
+
+}
+.about{
+  color:White;
+  text-align: center;
+  background-color: Black;
+  margin-bottom: 25px;
+
+  
+}
+.about:hover{
+  text-decoration: underline;
+}
+.paragraph{
+  color: grey;
+  text-align: center;
+  width: 700px;
+}
+body{
+  background-image: url(https://pbs.twimg.com/media/Ci2PR5MUYAARPxc.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+.tweetbutton{
+  color:rgba(27, 27, 188, 0.742);
+}
+.go{
+  color:White;
+  
+}
+.span:hover{
+  text-decoration: underline;
+  background-color: grey;
+  font-size: 25px;
+
+}
+.room{
+  border-radius: 50%;
+  width: 150px;
+  height:150px;
+  margin-bottom: 0px;
+}
+.interior{
+  padding-left: 8px;
+
+}
+.interior:hover{
+  font-size: 20px;
+  
+  
+  
+}
+.search{
+  display: inline block;
+ 
+
+}
+
+.searchbar{
+  justify-content: center;  
+align-items: center; 
+margin-top: 0px;
+  
+}
+.searchsymbol:hover{
+  border-color: black;
+  
+}
+
+.know{
+  
+  display: inline-block;
+  
+}
+
+.meet{
+  color: rgb(68, 3, 3);
+  font-family: Anton;
+}
+
+.members{
+  margin-top: 50px;
+  display: block;
+}
+
+.pratik{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 0px;
+
+}
+
+.pratikname{
+  color: white;
+  margin-bottom: 0px;
+  font-family: Teko;
+  font-size: 30px;
+ 
+}
+
+.pratikposition{
+  color: white;
+  margin-top: 0px;
+  font-family: Teko;
+  font-size: 20px;
+}
+
+.shishir{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+
+.shishirname{
+  color: white;
+  margin-bottom: 0px;
+  font-family: Teko;
+  font-size: 30px;
+  margin-bottom: 0px;
+  
+ 
+}
+
+.shishirposition{
+  color: white;
+  margin-top: 0px;
+  font-family: Teko;
+  font-size: 20px;
+  margin-top: 0px;
+}

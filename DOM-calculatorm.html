@@ -1,0 +1,130 @@
+<!DOCTYPE.html>
+<html>
+  <head>
+  <link rel="stylesheet" href="DOM-calculator.css">
+  </head>
+  <body>
+    <p>Calculator</p>
+    <p class="totalCalculation calculator-display"></p>
+    <button class="calculator-button grey-button" onclick="
+    assignelements('1');
+    ">
+      1
+    </button>
+    <button class="calculator-button grey-button" onclick="
+    assignelements('2');
+    "
+    >
+      2
+    </button>
+    <button class="calculator-button grey-button" onclick="
+    assignelements('3');
+    ">
+      3
+    </button>
+    <button class="calculator-button orange-button" onclick="
+    assignelements('+');
+    ">
+      +
+    </button>
+   
+    <p>
+    </p>
+    <button class="calculator-button grey-button"onclick="
+    assignelements('4');
+    ">
+      4
+    </button>
+    <button class="calculator-button grey-button" onclick="
+    assignelements('5');
+    ">
+      5
+    </button>
+    <button class="calculator-button grey-button" onclick="
+    assignelements('6');
+   ">
+      6
+    </button>
+    <button class="calculator-button orange-button" onclick="
+    assignelements('-');
+    ">
+      -
+    </button>
+    <p></p>
+    <button class="calculator-button grey-button" onclick="
+    assignelements('7');
+    ">
+      7
+    </button>
+    <button class="calculator-button grey-button" onclick="
+    assignelements('8');
+    ">
+      8
+    </button>
+    <button class="calculator-button grey-button" onclick="
+    assignelements('9');
+   ">
+      9
+    </button>
+    <button class="calculator-button orange-button" onclick="
+    assignelements('*');
+    ">
+      *
+    </button>
+    <p></p>
+    <button class="calculator-button grey-button" onclick="
+    assignelements('0');
+    ">
+      0
+    </button>
+    <button class="calculator-button grey-button" onclick="
+    assignelements('.');
+    ">
+      .
+    </button>
+    <button class="calculator-button grey-button" onclick="
+    calculation=eval(calculation);
+    console.log(calculation);
+    localStorage.setItem('calculation', calculation);
+    document.querySelector('.totalCalculation').innerHTML = calculation;
+    ">
+      =
+    </button>
+    <button class="calculator-button orange-button" onclick="
+    assignelements('/');
+    ">
+      /
+    </button> <p></p>
+    <button class="calculator-button grey-button clear-button" onclick="
+    calculation=''
+    localStorage.setItem('calculation', calculation);
+    document.querySelector('.totalCalculation').innerHTML = calculation;
+    ">
+      Clear
+    </button>
+
+    
+
+    
+    </body>
+    <script>
+      let calculation=localStorage.getItem('calculation') || '';
+      document.querySelector('.totalCalculation').innerHTML = calculation;
+    
+      
+      function assignelements(value)
+      {
+        calculation += value;
+        console.log(calculation);
+
+        localStorage.setItem('calculation', calculation);
+
+        document.querySelector('.totalCalculation').innerHTML = calculation;
+      }
+    
+      
+
+    </script>
+    </body>
+  </body>
+</html>

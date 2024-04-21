@@ -1,0 +1,12 @@
+.js-buttons-1, .js-buttons-2, .js-buttons-3{
+  height: 30px;
+  width: 80px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.is-toggled{
+  background-color: black;
+  color: white;
+}

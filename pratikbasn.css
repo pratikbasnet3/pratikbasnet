@@ -1,0 +1,28 @@
+h1{
+  color: white;
+  font-family:unset;
+  
+  font-size: 75px;
+  
+}
+h2{
+  color: white;
+  font-weight:lighter;
+}
+p{
+  color: white;
+  font-weight:200;
+  font-style: inherit;
+}
+img{
+  border-radius: 60%;
+  width:150;
+  height:150;
+  margin: 35px 35px 35px 35px;
+}
+p1{
+  font-weight:unset;
+  color: RED;
+  font-size: 40px;
+  
+}

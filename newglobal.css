@@ -1,0 +1,23 @@
+.heading{
+background-color: rgba(47, 47, 223, 0.667);
+height: 50px;
+}
+.educatethe{
+  padding-top: 12px;
+  padding-left: 4px;
+}
+.about:hover{
+  text-decoration: underline;
+}
+.products:hover{
+  text-decoration: underline;
+}
+.members:hover{
+  text-decoration: underline;
+}
+.contact:hover{
+  text-decoration: underline;
+}
+.logo{
+  width: 100px;
+}

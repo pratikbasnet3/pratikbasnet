@@ -1,0 +1,44 @@
+<!DOCTYPE.html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <p> Todo List Practice 1</p>
+    <p></p>
+    <input class="input-todo" type="text" placeholder="Todo name">
+    <button onclick=" 
+    addTodo();
+    ">
+      Add
+    </button>
+
+    <div clasd="js-todo-list"></div>
+   
+    <script>
+    const todoList = ['make dinner', 'wash dishes'];
+
+    let todoListHTML = '';
+
+    for (i=0; i<todoList.length; i++) {
+      const todo = todoList[i];
+      const html = `<p>${todo}</p>`;
+      todoListHTML+=html;
+    }
+    console.log(todoListHTML);
+
+
+    document.querySelector('.divisionHTML').innerHTML = todoListHTML;
+ 
+    function addTodo() {
+      const inputElement = document.querySelector('.input-todo');
+      console.log(todoList.push(inputElement.value));
+
+      document.querySelector('.js-todo-list').innerHTML = todoList;
+      inputElement.value='';
+      
+      
+    }
+    </script>
+  </body>
+</html>

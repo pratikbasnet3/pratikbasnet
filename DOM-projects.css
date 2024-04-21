@@ -1,0 +1,42 @@
+.js-button{
+  background-color: black;
+  color: white;
+  border-radius: 18px;
+  border-color: none;
+  height: 30px;
+  width: 80px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.js-button:hover{
+  background-color: white;
+  color: black;
+}
+
+.calculateButton{
+  color: white;
+  background-color: green;
+  height: 30px;
+  width: 80px;
+  border: none;
+  cursor: pointer;
+}
+
+.js-cost-input{
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.is-subscribed{
+  background-color: white;
+  color: black;
+}
+
+.is-unsubscribed{
+  background-color: black;
+  color: white;
+}

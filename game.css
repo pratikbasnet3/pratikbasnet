@@ -1,0 +1,24 @@
+/* styles.css */
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: 'Arial', sans-serif; /* Set a default font family */
+}
+
+.container {
+  background-image: url('"C:\Users\Dell\Downloads\full-bg-image.png"'); /* Replace with the actual path or URL of your background image */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  color: #ffffff; /* Set text color to white, or choose a contrasting color */
+  padding: 50px; /* Add some padding to the content for better readability */
+  text-align: center; /* Center the text content */
+}
+
+h1 {
+  font-size: 2em; /* Adjust the font size as needed */
+}
+
+p {
+  font-size: 1.2em; /* Adjust the font size as needed */
+}

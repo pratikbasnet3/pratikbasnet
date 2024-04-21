@@ -1,0 +1,79 @@
+<!DOCTYPE.html>
+<html>
+  <head>
+    <link rel="stylesheet" href="DOM-projects.css">
+  </head>
+  <body>
+    <p>YouTube Subscribe Button</p>
+    <button  onclick="
+      subscribebutton();"
+      class="js-button">
+      Subscribe
+      </button>
+      
+
+      <p>Amazon Shipping Calculator
+      </p>
+      <p>Orders under $40 = +$10 shipping.</p>
+      <p>Orders over $40 = FREE shipping.</p>
+
+      <input class="js-cost-input" type="text" placeholder="Cost of order"
+      onkeydown="
+     selectKey(event);"> 
+      <button class="calculateButton" onclick="
+      calculateTotal();"
+      >
+        Calculate
+      </button>
+      <p class="js-netPrice"></p>
+
+  <script>
+    String(25)
+    console.log('25' - 5);
+
+    function selectKey(event) {
+      if(event.key === 'Enter') {
+        calculateTotal();
+      }
+    }
+
+    function calculateTotal() {
+      const inputElement=document.querySelector('.js-cost-input');
+      let cost=Number(inputElement.value)*100;
+if(inputElement.value>0) {
+      if (cost<4000) {
+        cost =Math.round(cost + 1000);                  // cost = Math.round(cost+10);
+        console.log(cost);
+        
+
+      }
+
+      document.querySelector('.js-netPrice').innerHTML = `$${cost/100}`;
+
+    }
+  
+    else {
+      document.querySelector('.js-netPrice').innerHTML = 'Error: cost cannot be less than $0';
+    }}
+    
+     function subscribebutton() {
+    const subscribe= document.querySelector('.js-button');
+    if(subscribe.innerText === 'Subscribe') {
+    subscribe.innerHTML = 'Subscribed';
+    subscribe.classList.add('is-subscribed'); // Adding a class to this onclick
+   }
+
+
+   else {
+    subscribe.innerHTML= 'Subscribe';
+    subscribe.classList.add('is-unsubscribed'); // Adding a class to onclick when again clicked to unsubsribe
+    // You can also use: subscribe.classList.remove('is-subscribed');
+   }
+    }
+
+
+
+  </script>
+    </body>
+
+</html>
